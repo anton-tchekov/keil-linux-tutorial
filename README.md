@@ -31,15 +31,15 @@ Je nach Distribution:
 
 ## Schritt 2: Keil herunterladen
 
-Von meiner Dropbox `[Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1)` herunterladen und entpacken.
+Von meiner Dropbox [Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1) herunterladen und entpacken.
 
 Es ist kein Virus, versprochen ;)
 
 ## Schritt 3: Keil starten und beten
 
-`wine Keil_v5/UV4/UV4.exe`
+Mit folgendem Befehl Keil starten:
 
-Jetzt sollte Keil starten.
+`wine Keil_v5/UV4/UV4.exe`
 
 Wenn man Keil bequem starten möchte, kann man sich ein Shellscript machen
 und einen Symlink nach `/usr/bin/` erstellen
