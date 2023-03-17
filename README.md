@@ -25,19 +25,17 @@ Je nach Distribution:
 
 `sudo pacman -Syu wine stlink`
 
-`sudo apt-get install wine stlink-tools`
+`sudo apt install wine stlink-tools`
 
 [etc.]
 
 ## Schritt 2: Keil herunterladen
 
-Von Dropbox `Keil_v5.zip` herunterladen und entpacken.
-
-Link: [https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1)
-
-## Schritt 3: Keil starten und beten
+Von meiner Dropbox `[Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1)` herunterladen und entpacken.
 
 Es ist kein Virus, versprochen ;)
+
+## Schritt 3: Keil starten und beten
 
 `wine Keil_v5/UV4/UV4.exe`
 
@@ -59,14 +57,10 @@ z.B.
 
 Jetzt sollte man mit Keil bereits Projekte öffnen und Kompilieren können.
 
-Damit man das Hochladen auf das Board auch funktioniert
+Damit man das Hochladen auf das Board auch funktioniert:
 
 Menüpunkt `Flash -> Configure Flash Tools` auswählen.
 
 Im Tab `Output` die Checkbox `Create HEX File` auswählen-
 Im Tab `Utilities` den Radiobutton `Use External Tool for Programming` auswählen.
 Im Textfelld `Command` folgendes eintragen `/usr/bin/st-flash --format ihex write ITSboard.hex`
-
-**Im Repository ist auch ein Beispielprojekt was bereits richtig eingestellt ist**
-
-`example.zip` entpacken (Ist ein Demo-Programm)
