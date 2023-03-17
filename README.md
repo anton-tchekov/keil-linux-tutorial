@@ -66,3 +66,8 @@ Im Tab `Output` die Checkbox `Create HEX File` setzen.
 Im Tab `Utilities` den Radiobutton `Use External Tool for Programming` setzen.
 
 Im Textfelld `Command` folgendes eintragen `/usr/bin/st-flash --format ihex write ITSboard.hex`
+
+
+## Test
+
+https://www.dropbox.com/s/zaivxrvrgk2cxvi/praktikum.zip?dl=1
