@@ -55,6 +55,9 @@ z.B.
 
 `sudo ln -s keil.sh /usr/bin/keil`
 
+Dann muss man im Pack Installer von Keil (Grünes Icon im Toolbar, zweite Reihe ganz rechts)
+zwei Pakete installieren: `Keil::STM32F4xx_DSP` und `ARM::CMSIS`
+
 ## Schritt 4: Upload auf Board
 
 Damit man das Hochladen auf das Board auch funktioniert:
