@@ -35,7 +35,7 @@ Von meiner Dropbox [Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_
 
 Den Ordner nach `~/.wine/drive_c/` verschieben:
 
-`mv Keil_v5/ ~/.wine/drive_c/`
+`mv ~/Downloads/Keil_v5/ ~/.wine/drive_c/`
 
 ## Schritt 3: Keil starten
 
