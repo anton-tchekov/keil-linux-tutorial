@@ -61,6 +61,8 @@ Damit man das Hochladen auf das Board auch funktioniert:
 
 Menüpunkt `Flash -> Configure Flash Tools` auswählen.
 
-Im Tab `Output` die Checkbox `Create HEX File` auswählen-
-Im Tab `Utilities` den Radiobutton `Use External Tool for Programming` auswählen.
+Im Tab `Output` die Checkbox `Create HEX File` setzen.
+
+Im Tab `Utilities` den Radiobutton `Use External Tool for Programming` setzen.
+
 Im Textfelld `Command` folgendes eintragen `/usr/bin/st-flash --format ihex write ITSboard.hex`
