@@ -67,4 +67,6 @@ Im Tab `Output` die Checkbox `Create HEX File` setzen.
 
 Im Tab `Utilities` den Radiobutton `Use External Tool for Programming` setzen.
 
-Im Textfelld `Command` folgendes eintragen `/usr/bin/st-flash --format ihex write ITSboard.hex`
+Checkbox `Run Independent` setzen.
+
+Im Textfelld `Command` folgendes eintragen `/usr/bin/st-flash --format ihex write ITSboard/ITSboard.hex`
