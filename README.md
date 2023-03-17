@@ -33,7 +33,7 @@ Je nach Distribution:
 
 Von Dropbox `Keil_v5.zip` herunterladen und entpacken.
 
-Link: [https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=0)
+Link: [https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1)
 
 ## Schritt 3: Keil starten und beten
 
