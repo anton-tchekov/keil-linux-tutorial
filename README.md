@@ -31,9 +31,9 @@ Je nach Distribution:
 
 ## Schritt 2: Keil herunterladen
 
-Von meiner Dropbox [Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1) herunterladen und entpacken.
+Von meiner Dropbox [Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1) herunterladen und entpacken. (Ist eine vorbereitete Version, die out-of-the-box ohne Installation funktioniert)
 
-Es ist kein Virus, versprochen ;)
+Ist kein Virus, versprochen ;)
 
 ## Schritt 3: Keil starten und beten
 
