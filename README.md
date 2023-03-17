@@ -1,7 +1,5 @@
 # Keil Linux Anleitung
 
-Dies ist eine Anleitung, wie man Keil auf Linux installiert.
-
 Getestet unter Arch Linux und Lubuntu
 (sollte auf anderen Distributionen auch funktionieren, ggf.
 heißen die zu installierenden Pakete anders)
@@ -31,7 +29,7 @@ Je nach Distribution:
 
 ## Schritt 2: Keil herunterladen
 
-Von meiner Dropbox [Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1) herunterladen und entpacken. (Ist eine vorbereitete Version, die out-of-the-box ohne Installation funktioniert)
+Von meiner Dropbox [Keil_v5.zip](https://www.dropbox.com/s/ditsd04i56gsmvq/Keil_v5.zip?dl=1) herunterladen und entpacken. (Ist eine vorbereitete Keil-Version, die ohne Installation funktioniert)
 
 `unzip ~/Downloads/Keil_v5.zip`
 
@@ -39,7 +37,7 @@ Den Ordner nach `~/.wine/drive_c/` verschieben:
 
 `mv Keil_v5/ ~/.wine/drive_c/`
 
-## Schritt 3: Keil starten und beten
+## Schritt 3: Keil starten
 
 Mit folgendem Befehl Keil starten:
 
@@ -50,10 +48,8 @@ und einen Symlink nach `/usr/bin/` erstellen
 
 **keil.sh**
 
-```
     #!/bin/sh
     wine ~/.wine/drive_c/Keil_v5/UV4/UV4.exe
-```
 
 `sudo ln -s keil.sh /usr/bin/keil`
 
