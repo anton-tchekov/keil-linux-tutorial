@@ -13,11 +13,11 @@ heißen die zu installierenden Pakete anders)
 
 **Funktioniert nicht:**
 
-- Keil Debugger (da ST-Link als externes Programm verwendet wird)
+- Debugger (da ST-Link als externes Programm verwendet wird)
 
 ## Schritt 1: Notwendige Pakete installieren
 
-`wine` und `st-link` über den Paketmanager installieren.
+`wine` und `stlink` über den Paketmanager installieren.
 
 Je nach Distribution:
 
@@ -65,4 +65,4 @@ Im Tab `Utilities` den Radiobutton `Use External Tool for Programming` setzen.
 
 Checkbox `Run Independent` setzen.
 
-Im Textfelld `Command` folgendes eintragen `/usr/bin/st-flash --format ihex write ITSboard/ITSboard.hex`
+Im Textfeld `Command` eintragen: `/usr/bin/st-flash --format ihex write ITSboard/ITSboard.hex`
