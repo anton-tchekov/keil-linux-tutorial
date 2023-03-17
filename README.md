@@ -53,9 +53,7 @@ z.B.
 
 `sudo ln -s keil.sh /usr/bin/keil`
 
-## Schritt 4: Projekt testen
-
-Jetzt sollte man mit Keil bereits Projekte öffnen und Kompilieren können.
+## Schritt 4: Upload auf Board
 
 Damit man das Hochladen auf das Board auch funktioniert:
 
